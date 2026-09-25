@@ -51,20 +51,13 @@ const skillGroups = [
     { name: 'MySQL', note: 'Learning' }, { name: 'Postgre', note: 'Learning' },
   ] },
   { category: 'Tools', items: [
-    { name: 'Git' }, { name: 'GitHub' }, { name: 'npm' }, { name: 'Node.js' }, { name: 'Notepad++' }, { name: 'Browser DevTools' },
+    { name: 'Git' }, { name: 'GitHub' }, { name: 'npm' }, { name: 'Node.js' }, { name: 'Visual Studio Code' }, { name: 'Browser DevTools' },
   ] },
 ];
 
 const services = [
   { title: 'Website Development', description: 'Building modern, responsive websites for individuals, businesses and organizations.', icon: 'globe' },
   { title: 'Frontend Development', description: 'Creating responsive, interactive user interfaces using modern frontend technologies.', icon: 'layout' },
-  { title: 'Full-Stack Development', description: 'Developing complete web applications across frontend, backend, APIs and databases.', icon: 'stack' },
-  { title: 'Web Application Development', description: 'Building practical web applications designed around real-world requirements.', icon: 'app' },
-  { title: 'Backend Development', description: 'Developing server-side functionality, APIs and application logic.', icon: 'server' },
-  { title: 'Database Development', description: 'Designing and integrating databases for real applications.', icon: 'database' },
-  { title: 'Website Redesign', description: 'Modernizing existing websites and improving usability, responsiveness and visual quality.', icon: 'refresh' },
-  { title: 'Bug Fixing', description: 'Diagnosing and resolving frontend, backend and application issues.', icon: 'bug' },
-  { title: 'Website Maintenance', description: 'Maintaining, improving and updating existing websites and applications.', icon: 'wrench' },
 ];
 
 // ── PROJECTS ────────────────────────────────────────────────────────

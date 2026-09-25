@@ -374,8 +374,8 @@ function renderContactInfo() {
   list.innerHTML = `
     <li><span>Email</span><a href="mailto:${cleanEmail}">${profile.email}</a></li>
     <li><span>Phone</span><a href="tel:${profile.phone}">${profile.phone}</a></li>
-    <li><span>WhatsApp</span><a href="https://wa.me/234${profile.whatsapp.replace(/^0/, '')}" target="_blank" rel="noopener noreferrer">${profile.whatsapp}</a></li>
-    <li><span>GitHub</span><a href="${profile.social.github}" target="_blank" rel="noopener noreferrer">Yahaya-Jamiu32</a></li>
+   <span>WhatsApp</span><a href="https://wa.me/234${profile.whatsapp.replace(/^0/, '')}" target="_blank" rel="noopener noreferrer">${profile.whatsapp}</a></li>
+    <li><span>GitHub</span><a href="${profile.social.github}" target="_blank" rel="noopener noreferrer">Yahaya-Jamiu32</a>
     <li><span>Facebook</span><a href="${profile.social.facebook}" target="_blank" rel="noopener noreferrer">de.noble.939135</a></li>
     <li><span>YouTube</span><a href="${profile.social.youtube}" target="_blank" rel="noopener noreferrer">@webtips-l1d</a></li>
   `;
